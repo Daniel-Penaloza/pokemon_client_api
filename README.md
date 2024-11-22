@@ -1,24 +1,11 @@
-# README
+### Basic Setup.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1.- Run bundle install.
 
-Things you may want to cover:
+2.- Then rails db:setup.
 
-* Ruby version
+3.- Lastly just rails s and make all the request that you want in your local with the following URI:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+http://localhost:3000/api/v1/pokemon?pokemon_name=your_pokemon_name
+```
