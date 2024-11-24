@@ -15,7 +15,7 @@ module WebServices
     end
 
     def status
-      :not_found
+      response.status
     end
   end
 end

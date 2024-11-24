@@ -20,7 +20,7 @@ module WebServices
     end
 
     def status
-      :ok
+      response.status
     end
 
     private
